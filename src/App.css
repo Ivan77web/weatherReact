@@ -1,0 +1,101 @@
+.app{
+  width: 100%;
+  height: 100%;
+  /* background: rgb(171, 206, 226); */
+  /* background: url("../src/img/bg.jpg") no-repeat center top / cover; */
+}
+
+html {
+  background-image: url("../src/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.weather{
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.city{
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.form{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.inputCity{
+  padding-left: 10px;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+.weatherWind{
+  width: 400px;
+  height: 600px;
+  border-radius: 40px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: rgb(42, 110, 68);
+
+  background: rgb(247, 236, 190);
+}
+
+.feels_like{
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.add{
+  position: relative;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 300px;
+  height: 100px;
+}
+
+.wind, .clouds, .humidity, .pressure{
+  font-size: 18px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.wind_value, .clouds_value, .humidity_value, .pressure_value{
+  position: absolute;
+  right: 0;
+}
+
+.coords{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.buttonCheck{
+  height: 50px;
+  background: white;
+  border: none;
+  border-radius: 100%;
+}
